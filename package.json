@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "concurrently": "^6.1.0"
+  },
+  "name": "fullstackdci",
+  "version": "1.0.0",
+  "description": "backend",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "concurrently \"npm start --prefix Frontend\"   \"npm start --prefix Backend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neao002/FullMern.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neao002/FullMern/issues"
+  },
+  "homepage": "https://github.com/neao002/FullMern#readme"
+}
